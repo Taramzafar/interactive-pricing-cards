@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Pricing Plans</title>
+
+
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     PRICING SECTION
+====================================================== -->
+
+<section class="pricing-section">
+
+
+    <!-- =================================================
+         HEADING
+    ================================================== -->
+
+    <div class="pricing-heading">
+
+        <h1>Pricing Table</h1>
+
+        <div class="heading-line"></div>
+
+        <p>
+            Choose the best plan for you and your organization
+        </p>
+
+    </div>
+
+
+
+    <!-- =================================================
+         CONTROLS
+    ================================================== -->
+
+    <div class="pricing-controls">
+
+
+        <!-- CATEGORY FILTER -->
+
+        <div class="filters">
+
+            <button
+                class="filter-btn active"
+                data-filter="all">
+
+                All
+
+            </button>
+
+
+            <button
+                class="filter-btn"
+                data-filter="basic">
+
+                Basic
+
+            </button>
+
+
+            <button
+                class="filter-btn"
+                data-filter="premium">
+
+                Premium
+
+            </button>
+
+        </div>
+
+
+
+        <!-- MONTHLY / YEARLY TOGGLE -->
+
+        <div class="billing">
+
+            <span>Monthly</span>
+
+
+            <label class="switch">
+
+                <input
+                    type="checkbox"
+                    id="billingToggle">
+
+                <span class="slider"></span>
+
+            </label>
+
+
+            <span>Yearly</span>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================================
+         PRICING CARDS
+    ================================================== -->
+
+    <div class="pricing-cards">
+
+
+        <!-- =================================================
+             STARTER CARD
+        ================================================== -->
+
+        <article
+            class="pricing-card side-card"
+            data-category="basic">
+
+
+            <div class="card-inner">
+
+
+                <!-- ICON -->
+
+                <div class="plan-icon">
+                    🌱
+                </div>
+
+
+                <!-- TITLE -->
+
+                <h2>Starter</h2>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="description">
+
+                    Perfect for beginners and
+                    personal projects.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <ul class="features">
+
+                    <li>5 Projects</li>
+
+                    <li>Basic Support</li>
+
+                    <li>5 GB Storage</li>
+
+                    <li>Basic Analytics</li>
+
+                </ul>
+
+
+                <!-- PRICE -->
+
+                <div class="price">
+
+                    <span>$</span>
+
+                    <strong
+                        data-monthly="9"
+                        data-yearly="90">
+
+                        9
+
+                    </strong>
+
+                    <small class="period">
+                        /month
+                    </small>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button class="choose-btn">
+
+                    Choose Plan
+
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             PROFESSIONAL CARD
+        ================================================== -->
+
+        <article
+            class="pricing-card popular-card"
+            data-category="premium">
+
+
+            <!-- MOST POPULAR BADGE -->
+
+            <div class="popular-badge">
+
+                Most Popular
+
+            </div>
+
+
+            <div class="card-inner">
+
+
+                <!-- ICON -->
+
+                <div class="plan-icon">
+                    🚀
+                </div>
+
+
+                <!-- TITLE -->
+
+                <h2>Professional</h2>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="description">
+
+                    Great for freelancers and
+                    growing businesses.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <ul class="features">
+
+                    <li>20 Projects</li>
+
+                    <li>Priority Support</li>
+
+                    <li>50 GB Storage</li>
+
+                    <li>Advanced Analytics</li>
+
+                </ul>
+
+
+                <!-- PRICE -->
+
+                <div class="price">
+
+                    <span>$</span>
+
+                    <strong
+                        data-monthly="19"
+                        data-yearly="190">
+
+                        19
+
+                    </strong>
+
+                    <small class="period">
+                        /month
+                    </small>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button class="choose-btn">
+
+                    Choose Plan
+
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             BUSINESS CARD
+        ================================================== -->
+
+        <article
+            class="pricing-card side-card"
+            data-category="premium">
+
+
+            <div class="card-inner">
+
+
+                <!-- ICON -->
+
+                <div class="plan-icon">
+                    💎
+                </div>
+
+
+                <!-- TITLE -->
+
+                <h2>Business</h2>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="description">
+
+                    Powerful tools for
+                    professional teams.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <ul class="features">
+
+                    <li>Unlimited Projects</li>
+
+                    <li>24/7 Support</li>
+
+                    <li>200 GB Storage</li>
+
+                    <li>Premium Analytics</li>
+
+                </ul>
+
+
+                <!-- PRICE -->
+
+                <div class="price">
+
+                    <span>$</span>
+
+                    <strong
+                        data-monthly="39"
+                        data-yearly="390">
+
+                        39
+
+                    </strong>
+
+                    <small class="period">
+                        /month
+                    </small>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button class="choose-btn">
+
+                    Choose Plan
+
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             BASIC PLUS CARD
+        ================================================== -->
+
+        <article
+            class="pricing-card side-card"
+            data-category="basic">
+
+
+            <div class="card-inner">
+
+
+                <!-- ICON -->
+
+                <div class="plan-icon">
+                    ⭐
+                </div>
+
+
+                <!-- TITLE -->
+
+                <h2>Basic Plus</h2>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="description">
+
+                    Extra features for
+                    small projects.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <ul class="features">
+
+                    <li>10 Projects</li>
+
+                    <li>Email Support</li>
+
+                    <li>20 GB Storage</li>
+
+                    <li>Standard Analytics</li>
+
+                </ul>
+
+
+                <!-- PRICE -->
+
+                <div class="price">
+
+                    <span>$</span>
+
+                    <strong
+                        data-monthly="14"
+                        data-yearly="140">
+
+                        14
+
+                    </strong>
+
+                    <small class="period">
+                        /month
+                    </small>
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button class="choose-btn">
+
+                    Choose Plan
+
+                </button>
+
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         JAVASCRIPT MESSAGE
+    ================================================== -->
+
+    <div
+        id="selectionMessage"
+        class="selection-message">
+    </div>
+
+
+</section>
+
+
+
+<!-- JAVASCRIPT FILE -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
